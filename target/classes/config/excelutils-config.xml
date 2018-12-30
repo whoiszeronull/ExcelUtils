@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<mappings default="default">
+		<mapping-type id="default" type="excel"
+			file="excelsamples\sample1.xlsx"
+			sheetName="aa" startRow="2" endRow="4">
+			<mapping database-column="part_number" excel-column="b" />
+			<mapping database-column="name_cn" excel-column="c" />
+			<mapping database-column="specification" excel-column="d" />
+			<mapping database-column="unit" excel-column="e" />
+			<mapping database-column="分子" excel-column="f" />
+			<mapping database-column="分母" excel-column="g" />
+			<mapping database-column="应发数量" excel-column="h" />
+			<mapping database-column="实际领料" excel-column="i" />
+			<mapping database-column="unit_price" excel-column="j" />
+			<mapping database-column="金额" excel-column="k" />
+		</mapping-type>
+		
+		<mapping-type id="other" type="excel"
+			file="D:\temp\BOM Price List\original\digiTILE Outdoor 5.21.xlsx"
+			sheetName="工作表1" startRow="3" endRow="8">
+			<mapping database-column="part_number" excel-column="b" />
+			<mapping database-column="实际领料" excel-column="i" />
+			<mapping database-column="unit_price" excel-column="j" />
+			<mapping database-column="金额" excel-column="k" />
+		</mapping-type>
+
+	</mappings>
+
+
+</configuration>

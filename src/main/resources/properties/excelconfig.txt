@@ -1,0 +1,7 @@
+excelfile=d:???dfj
+sheet=¹¤×÷±í1
+startRow=2
+endRow=10
+
+excel-column-mappings:
+A1=
